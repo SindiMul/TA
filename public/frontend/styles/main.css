@@ -1,0 +1,540 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  color: #ff792b;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+.breadcrumb .active {
+  font-weight: bold;
+  color: #009688;
+}
+
+.aaa {
+  font-weight: bold;
+  color: #3cf0de !important;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #3cf0de !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #009688;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #3cf0de;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -100px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+h2 {
+  color: #ff792b;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.btn-get-started {
+  background-color: #009688;
+  color: #fff;
+  float: right;
+}
+
+.btn-get-started:hover {
+  background-color: #3cf0de;
+  color: #fff;
+}
+
+.section-event-content .section-event-list .card-event {
+  min-height: 380px;
+  background-color: #ddd;
+  color: #fff;
+  padding: 20px;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.section-event-content .section-event-list .event-location {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-event-content .section-event-list .event-name {
+  font-size: 26px;
+  color: #fff;
+}
+
+.section-event-content .section-event-list .event-button .btn-event-details {
+  background-color: #009688;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.section-event-content .section-event-list .event-button .btn-event-details:hover {
+  background-color: #3cf0de;
+  color: #fff;
+}
+
+.section-networks {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-networks p {
+  font-size: 18px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-footer a {
+  color: #071C4D;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #E4E6EB;
+  margin-top: -100px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #009688;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #009688;
+}
+
+.section-details-content .card-details .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071C4D;
+}
+
+.section-details-content .card-details .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .trip-informations .text-blue {
+  color: #009688;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #009688;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .bank .bank-item .description p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #009688;
+}
+
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: #ff792b;
+  color: #fff;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #53bada;
+  color: #fff;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .member .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #009688;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #45aec9;
+  color: #fff;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071C4D;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #009688;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #45aec9;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .L-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #ffffff), color-stop(40%, #E4E6EB));
+    background: linear-gradient(90deg, #ffffff 60%, #E4E6EB 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+  .L-container .card {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left: 0;
+    border-top: 0;
+  }
+}
+
+.page-login {
+  height: 100vh;
+}
+
+.page-login .btn-login {
+  border-radius: 4px;
+  background-color: #009688;
+  color: #fff;
+}
+
+.page-login .btn-login:hover {
+  color: #fff;
+}
+
+.section-left h1 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  color: #009688;
+}
+
+.section-right p, .section-right a {
+  font-family: Assistant;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  color: #bfbfbf;
+}
+
+.btn-add-now1 {
+  background-color: #B1B1B1;
+  color: #fff;
+  float: right;
+}
+
+.btn-add-now1:hover {
+  background-color: #53bada;
+  color: #fff;
+}
+
+.section-event {
+  background-color: #fff;
+}
+
+.section-event .container {
+  margin: auto;
+}
+
+.section-event .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-event .produk-items {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section-event .produk-items .item {
+  -ms-flex-preferred-size: calc(25% - 30px);
+      flex-basis: calc(25% - 30px);
+  max-width: calc(25% - 30px);
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  margin-bottom: 40px;
+}
+
+.section-event .produk-items .item img {
+  display: block;
+  max-width: 106%;
+  min-height: 70%;
+  border-radius: 8px;
+}
+
+.section-event .produk-items .item .inner {
+  position: relative;
+  z-index: 11;
+  padding: 0 15px;
+}
+
+.section-event .produk-items .item .inner .info {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 15px;
+  border-radius: 8px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  margin-top: -40px;
+}
+
+.section-event .produk-items .item:hover .info {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.section-event .produk-items .item:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.section-event .produk-items .item .inner .info h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #009688;
+}
+
+.section-event .produk-items .item .inner .info p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff792b;
+  margin: 10px 0 0;
+}
+
+.section-event .produk-items .item .inner .info .event-button {
+  padding-top: 15px;
+}
+
+.section-event .produk-items .item .inner .info .event-button .btn-event-details {
+  background-color: #009688;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.section-event .produk-items .item .inner .info .event-button .btn-event-details:hover {
+  background-color: #3cf0de;
+  color: #fff;
+}
+
+/*responsive*/
+@media (max-width: 991px) {
+  .section-event .produk-items .item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 767px) {
+  .section-event .produk-items .item {
+    -ms-flex-preferred-size: calc(100%);
+        flex-basis: calc(100%);
+    max-width: calc(100%);
+  }
+}
+/*# sourceMappingURL=main.css.map */
