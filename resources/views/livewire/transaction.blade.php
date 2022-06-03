@@ -36,7 +36,7 @@
                 <img class="mr-3" src="{{ url('assets/bri.png') }}" alt="Bank BRI" width="60">
                 <div class="media-body">
                     <h5 class="mt-0">BANK BRI</h5>
-                    No. Rekening <strong>012345-678-910 </strong> atas nama <strong>Fikri Sukmajaya</strong>
+                    No. Rekening <strong>012345-678-910 </strong> atas nama <strong>Sindi Mulyawati</strong>
                 </div>
             </div>
         </div>
