@@ -50,10 +50,10 @@
                         <label for="price">Price</label>
                         <input type="number" class="form-control" name="price" placeholder="Price" value="{{ old('price') }}">
                     </div>
-                    <!-- <div class="form-group">
+                    <div class="form-group">
                         <label for="price">Kuota</label>
                         <input type="number" class="form-control" name="kuota" placeholder="Kuota" value="{{ old('kuota') }}">
-                    </div> -->
+                    </div>
                     
                     <button type="submit" class="btn btn-primary btn-block">
                         Simpan
